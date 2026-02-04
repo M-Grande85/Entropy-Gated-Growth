@@ -1,3 +1,4 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/M-Grande85/entropy-gated-growth/HEAD?filepath=notebooks%2Fentropy_growth_sim.ipynb)
 # Entropy-Gated Irreversible Growth
 
 This project simulates irreversible structural growth in dynamical systems under entropy export constraints.
