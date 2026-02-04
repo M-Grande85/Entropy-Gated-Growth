@@ -1,0 +1,28 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{authblk}
+\usepackage{geometry}
+\geometry{margin=1in}
+\title{Entropy-Gated Irreversible Growth in Dynamical Systems}
+\author{Your Name\thanks{Independent Researcher, your.email@domain.com}}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We propose that irreversible structural growth in dynamical systems is not guaranteed by time flow, but instead gated by the capacity to export entropy. This paper introduces a Langevin-style model in which growth stalls once entropy saturates, unless it can be dissipated into the environment. This entropy gating mechanism produces commitment behavior consistent with observed phenomena in cosmology, quantum decoherence, and atmospheric regime transitions.
+\end{abstract}
+
+\section{Model}
+We define growth $g(t)$ as an irreversible commitment. Entropy $S(t)$ accumulates quadratically with the growth rate:
+\[
+\frac{dS}{dt} = \alpha \left( \frac{dg}{dt} \right)^2 - \gamma S(t)
+\]
+Growth halts if entropy saturates and cannot be exported.
+
+\section{Simulation}
+A minimal model was implemented and is publicly available via GitHub and Binder. Results show that growth only persists under sufficient entropy export capacity.
+
+\end{document}
